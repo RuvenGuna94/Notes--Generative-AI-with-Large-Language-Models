@@ -20,6 +20,9 @@
 
 Significance: The power of the transformer architecture lies in its ability to learn the relevance and context of all of the words in a sentence. To apply attention weights to those relationships so that the model learns the relevance of each word to each other words no matter where they are in the input. 
 
+![Transformer Detail](https://github.com/user-attachments/assets/56463dfe-0fba-417a-a8ff-7be63bd70d41)
+![Transformer Overview](https://github.com/user-attachments/assets/f5dda45e-c4de-4830-ba59-97652cb34a24)
+
 
 - Words must be tokenized before going into the transformer
 - Token IDs can match complete words or parts of a word
@@ -43,6 +46,8 @@ Significance: The power of the transformer architecture lies in its ability to l
 - This vector is then passed to the softmax layer where they are normalized where each word in the model's vocabulary has a probability. One word will have the highest probability and this is likely the next predicted token. 
 
 ## Translation task data flow
+![Transformer sq to sq example](https://github.com/user-attachments/assets/abc75d7b-76af-4615-bca6-03619e6c731d)
+
 1. *Tokenization*: The input phrase is tokenized using the same tokenizer that trained the network.
 2. *Encoder*:
     - Tokens are passed through the embedding layer.
