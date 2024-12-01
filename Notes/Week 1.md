@@ -48,21 +48,21 @@ Significance: The power of the transformer architecture lies in its ability to l
 ## Translation task data flow
 ![Transformer sq to sq example](https://github.com/user-attachments/assets/abc75d7b-76af-4615-bca6-03619e6c731d)
 
-1. *Tokenization*: The input phrase is tokenized using the same tokenizer that trained the network.
-2. *Encoder*:
+1. **Tokenization**: The input phrase is tokenized using the same tokenizer that trained the network.
+2. **Encoder**:
     - Tokens are passed through the embedding layer.
     - Processed through multi-headed attention layers.
     - Outputs are fed through a feed-forward network, to the output of the encoder.
     - The encoder produces a deep representation of the input sequence's structure and meaning.
     - This is then passed to the middle of the decoder
-3. *Decoder*:
+3. **Decoder**:
     - The encoder's output influences the decoder's self-attention mechanisms.
     - A start-of-sequence token triggers the decoder to predict the next token, based on the contextual understanding provided by the encoder.
     - Similarly, the output of the decoder's self-attention layer gets passed through the decoder's FFN and finally, softmax output layer. 
     - The process continues in a loop until an end-of-sequence token is predicted.
     - The final sequence of tokens is detokenized into words to produce the output.
 • The encoder encodes input sequences into a deep representation of the structure and meaning of the input. The decoder, working from input token triggers, uses the encoder's contextual understanding to generate new tokens
-• *Model Variations*:
+• **Model Variations**:
     - Encoder-Only Models: Used for tasks like classification like sentiment analysis (e.g., BERT).
     - Encoder-Decoder Models: Used for sequence-to-sequence tasks. Commonly used for general text generation. (e.g., BART, T5).
     - Decoder-Only Models: Generalized for most tasks (e.g., GPT family, BLOOM, Jurassic, LLaMA)
