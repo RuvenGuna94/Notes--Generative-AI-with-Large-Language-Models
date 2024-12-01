@@ -61,8 +61,10 @@ Significance: The power of the transformer architecture lies in its ability to l
     - Similarly, the output of the decoder's self-attention layer gets passed through the decoder's FFN and finally, softmax output layer. 
     - The process continues in a loop until an end-of-sequence token is predicted.
     - The final sequence of tokens is detokenized into words to produce the output.
-• The encoder encodes input sequences into a deep representation of the structure and meaning of the input. The decoder, working from input token triggers, uses the encoder's contextual understanding to generate new tokens
-• **Model Variations**:
+
+Summary: The encoder encodes input sequences into a deep representation of the structure and meaning of the input. The decoder, working from input token triggers, uses the encoder's contextual understanding to generate new tokens
+
+**Model Variations**:
     - Encoder-Only Models: Used for tasks like classification like sentiment analysis (e.g., BERT).
     - Encoder-Decoder Models: Used for sequence-to-sequence tasks. Commonly used for general text generation. (e.g., BART, T5).
     - Decoder-Only Models: Generalized for most tasks (e.g., GPT family, BLOOM, Jurassic, LLaMA)
