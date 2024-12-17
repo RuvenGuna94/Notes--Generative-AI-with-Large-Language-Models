@@ -6,6 +6,8 @@
 - LLMs where size reflects number of parameters utilized by the model
 - More parameters, more memory, more sophisticated tasks
 
+---
+
 # Text Generation before Transformers
 - Before LLMs, text generation was done with RNNs
 - However, RNNs need to scale in order to take in more words or context
@@ -15,6 +17,8 @@
     - It can process input data in parallel
     - It is able to learn to "pay attention" to the meaning of the words it is processing
     - The paper proposes a neural network architecture that replaces traditional recurrent neural networks (RNNs) and convolutional neural networks (CNNs) with an entirely attention-based mechanism. 
+
+---
 
 # Transformer Architecture 
 
@@ -61,6 +65,8 @@ Significance: The power of the transformer architecture lies in its ability to l
     - Similarly, the output of the decoder's self-attention layer gets passed through the decoder's FFN and finally, softmax output layer. 
     - The process continues in a loop until an end-of-sequence token is predicted.
     - The final sequence of tokens is detokenized into words to produce the output.
+
+---
 
 **Summary**: The encoder encodes input sequences into a deep representation of the structure and meaning of the input. The decoder, working from input token triggers, uses the encoder's contextual understanding to generate new tokens
 

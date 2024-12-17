@@ -32,8 +32,6 @@
   - GPT
   - BLOOM
 
----
-
 # Sequence-to-Sequence Models (Encoder-Decoder Models)
 - **Key Features**:
   - Combines both encoder and decoder components of the transformer architecture.
