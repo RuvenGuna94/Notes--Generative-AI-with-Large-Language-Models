@@ -71,3 +71,4 @@
    - **Focus**: Input-to-output text tasks.
    - **Tasks**: Translation, summarization, question-answering.
    - **Examples**: T5, BART.
+![image](https://github.com/user-attachments/assets/63eda803-a8a8-403a-9f8e-bfbc410ca349)
