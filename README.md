@@ -5,3 +5,6 @@
 - Created notes folder
 - Added in images to IMG folder
 - Ported all ntotes from One Note
+
+## 17 December 
+- Uploaded notes for pre-training 
