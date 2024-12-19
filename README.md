@@ -7,4 +7,7 @@
 - Ported all ntotes from One Note
 
 ## 17 December 
-- Uploaded notes for pre-training 
+- Uploaded notes for pre-training and model size
+
+## 19 December
+- Uploaded notes for Distributed Training
