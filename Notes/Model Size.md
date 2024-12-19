@@ -8,6 +8,8 @@
   - Increasing parameters enhances performance.
   - Raises questions about scalability and feasibility due to the high costs of training enormous models.
 
+![image](https://github.com/user-attachments/assets/b0ff414a-dd13-4fdc-9c47-cef77142aa92)
+
 # Challenges with Large Models
 - Training is difficult and expensive, which may limit further growth.
 - Ongoing research focuses on addressing these challenges to balance performance with feasibility.
@@ -27,6 +29,9 @@
   - Model weights require **4 GB** of GPU RAM (FP32).
   - Training overhead (optimizers, gradients, activations, etc.) increases the memory requirement by **6x**, leading to **24 GB GPU RAM** needed.
 - Consumer GPUs and even some data center GPUs struggle to handle models with this memory demand on a single processor.
+
+![image](https://github.com/user-attachments/assets/d39934a6-d3cd-48f9-8d9b-d21bd2850ea4)
+![image](https://github.com/user-attachments/assets/c2eee4fc-b09b-4485-adca-9356934c8b1a)
 
 ---
 
@@ -63,6 +68,7 @@
 
 - Modern deep learning frameworks and libraries support quantization-aware training (QAT):
     - Learns the quantization scaling factors during scaling.
+![image](https://github.com/user-attachments/assets/e40f2132-d686-410a-a216-c21047c93969)
 
 ---
 
