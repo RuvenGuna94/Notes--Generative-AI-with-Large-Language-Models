@@ -16,6 +16,8 @@
 - **Limitations**:
   - All model weights, gradients, and optimizer states must fit on a single GPU.
 
+![image](https://github.com/user-attachments/assets/97381788-d17f-473e-b757-a069d595c113)
+
 2. Model Sharding: Fully Sharded Data Parallel (FSDP) - PyTorch
 - **Motivation**: Inspired by Microsoft's 2019 ZeRO (Zero Redundancy Optimizer) paper.
 - **Goal**: Eliminate memory redundancy by distributing (sharding) the model parameters, gradients, and optimizer states across GPUs instead of replicating them.
@@ -44,6 +46,8 @@
   - **Sharding factor = 1**: No sharding, similar to DDP.
   - **Maximum sharding factor**: Full sharding for maximum memory savings.
   - **Intermediate values**: Hybrid sharding for balanced performance and memory use.
+
+![image](https://github.com/user-attachments/assets/a5cd2caf-23d4-4c0e-946d-0b8cc59f65b0)
 
 ---
 
