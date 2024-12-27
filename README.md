@@ -18,3 +18,6 @@
 
 ## 23 December
 - Uploaded notes for Multi-task instruction fine-tuning
+
+## 27 December
+- Updated images to note 8
