@@ -4,4 +4,32 @@
 - Compare different models. 
 - Drive research and development of more capable models.  
 
+---
+
+## Key Benchmarks
+
+### GLUE (General Language Understanding Evaluation)
+- Collection of diverse NLP tasks (e.g., sentiment analysis, question-answering).  
+- Designed to encourage development of general-purpose models.  
+
+### SuperGLUE
+- Successor to GLUE with more challenging tasks.  
+- Includes multi-sentence reasoning and more difficult versions of GLUE tasks.  
+
+### MMLU (Massive Multitask Language Understanding)
+- Focuses on broad world knowledge and problem-solving abilities.  
+- Includes tasks in math, US history, computer science, law, and more.  
+
+### BIG-bench
+- Comprehensive benchmark with 204 tasks across various domains (e.g., linguistics, childhood development, math, common sense, biology, physics, social bias, software development).  
+- Available in different sizes to manage computational costs.  
+
+### HELM (Holistic Evaluation of Language Models)
+- **Key Features:**  
+  - **Multimetric approach:** Evaluates beyond accuracy (e.g., fairness, bias, toxicity).  
+  - **Transparency:** Aims to provide clear insights into model strengths and weaknesses.  
+  - **Evolving framework:** Continuously updated with new scenarios, metrics, and models.  
+
+---
+
 
