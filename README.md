@@ -26,3 +26,6 @@
 - Updated Benchmarks
 - Updated Parameter efficient fine-tuning (PEFT)
 - Updated PEFT Technique: Low-Rank Adaptation (LoRA)
+
+## 30 December 2024
+- Updated PEFT Technique: Soft Prompts - Prompt Tuning
