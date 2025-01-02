@@ -29,3 +29,11 @@
 
 ## 30 December 2024
 - Updated PEFT Technique: Soft Prompts - Prompt Tuning
+
+## 31 December 2024
+- Updated Reinforcement Learning from Human Feedback (RLHF)
+- Updated 14. RLHF - Obtaining feedback from humans
+
+## 1 Jan 2025
+- Updated RLHF - Reward model
+- Updated RLHF - Fine-tuning with reinforcement learning
