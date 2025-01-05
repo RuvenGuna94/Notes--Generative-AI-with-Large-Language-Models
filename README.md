@@ -92,3 +92,9 @@ This repository is open-source and available under the MIT License.
 ## 1 Jan 2025
 - Updated RLHF - Reward model
 - Updated RLHF - Fine-tuning with reinforcement learning
+
+## 5 Jan 2025
+- Updated Proximal policy optimization
+- Updated RLHF - Reward hacking
+- Updated Reward model - Scaling human feedback
+- Updated Model optimizations for deployment
