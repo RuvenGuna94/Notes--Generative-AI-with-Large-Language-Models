@@ -98,3 +98,8 @@ This repository is open-source and available under the MIT License.
 - Updated RLHF - Reward hacking
 - Updated Reward model - Scaling human feedback
 - Updated Model optimizations for deployment
+
+## 7 Jan 2025
+- Updated Generative AI Project Lifecycle Cheat Sheet
+- Updated Using the LLM in applications
+- Updated Interacting with external applications
