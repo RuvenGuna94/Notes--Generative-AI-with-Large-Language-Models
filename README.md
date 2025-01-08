@@ -106,3 +106,4 @@ This repository is open-source and available under the MIT License.
 
 ## 8 Jan 2025
 - Updated Helping LLMs reason and plan with chain-of-thought
+- Updated Program-aided language models (PAL)
