@@ -103,3 +103,6 @@ This repository is open-source and available under the MIT License.
 - Updated Generative AI Project Lifecycle Cheat Sheet
 - Updated Using the LLM in applications
 - Updated Interacting with external applications
+
+## 8 Jan 2025
+- Updated Helping LLMs reason and plan with chain-of-thought
