@@ -111,3 +111,6 @@ This repository is open-source and available under the MIT License.
 ## 9 Jan 2025
 - Updated ReAct: Combining reasoning and action
 - Updated LLM application architectures
+
+## 10 Jan 2025
+- Updated AWS Sagemaker JumpStart
